@@ -168,7 +168,8 @@
 
     @media (max-width: 900px) {
       .hero-layout { grid-template-columns: 1fr; gap: 2rem; }
-      .hero-image-wrap { display: none; }
+      .hero-image-wrap { display: flex; margin-top: 0.5rem; }
+      .hero-image-wrap img { max-width: 320px; }
     }
 
     .hero-bg {
@@ -1126,7 +1127,7 @@
 
       <div class="contact-detail">
         <span>📧</span>
-        <span>info@vesproengineering.com</span>
+        <span><a href="mailto:info@vesproengineering.com" style="color:inherit;text-decoration:none;">info@vesproengineering.com</a></span>
       </div>
       <div class="contact-detail">
         <span>📞</span>
@@ -1134,7 +1135,7 @@
       </div>
       <div class="contact-detail">
         <span>📍</span>
-        <span>3200 Wilcrest Drive, Suite 170<br>Houston, TX 77042</span>
+        <span><a href="https://maps.google.com/?q=3200%20Wilcrest%20Drive%2C%20Suite%20170%2C%20Houston%2C%20TX%2077042" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">3200 Wilcrest Drive, Suite 170<br>Houston, TX 77042</a></span>
       </div>
 
       <div style="margin-top:2rem;padding:1.5rem;border:1px solid var(--border);">
